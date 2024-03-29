@@ -1,8 +1,8 @@
-th[role=columnheader]:not(.no-sort) {
+table[data-sortable-table] th[role=columnheader]:not(.no-sort) {
     cursor: pointer;
 }
 
-th[role=columnheader]:not(.no-sort):after {
+table[data-sortable-table] th[role=columnheader]:not(.no-sort):after {
     content: '▾';
     float: right;
     visibility: hidden;
@@ -11,16 +11,16 @@ th[role=columnheader]:not(.no-sort):after {
     user-select: none;
 }
 
-th[aria-sort=ascending]:not(.no-sort):after {
+table[data-sortable-table] th[aria-sort=ascending]:not(.no-sort):after {
     content: '▴';
 }
 
-th[aria-sort]:not(.no-sort):after {
+table[data-sortable-table] th[aria-sort]:not(.no-sort):after {
     visibility: visible;
     opacity: 0.4;
 }
 
-th[role=columnheader]:not(.no-sort):hover:after {
+table[data-sortable-table] th[role=columnheader]:not(.no-sort):hover:after {
     visibility: visible;
     opacity: 1;
 }
