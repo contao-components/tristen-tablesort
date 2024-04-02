@@ -12,7 +12,7 @@ table[data-sortable-table] th[role=columnheader]:not(.no-sort):after {
 }
 
 table[data-sortable-table] th[aria-sort=ascending]:not(.no-sort):after {
-    content: '▴';
+    rotate: 180deg;
 }
 
 table[data-sortable-table] th[aria-sort]:not(.no-sort):after {
