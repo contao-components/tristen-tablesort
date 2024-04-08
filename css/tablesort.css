@@ -11,7 +11,7 @@ table[data-sortable-table] th[role=columnheader]:not(.no-sort):after {
     user-select: none;
 }
 
-table[data-sortable-table] th[aria-sort=ascending]:not(.no-sort):after {
+table[data-sortable-table] th[aria-sort=descending]:not(.no-sort):after {
     rotate: 180deg;
 }
 
