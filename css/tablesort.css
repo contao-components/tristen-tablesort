@@ -5,7 +5,7 @@ table[data-sortable-table] th[role=columnheader]:not(.no-sort) {
 table[data-sortable-table] th[role=columnheader]:not(.no-sort){
     background-image: url("../images/default.svg");
     background-repeat: no-repeat;
-    background-position: right var(--sortable-icon-offset,1em) center;
+    background-position: right center;
 }
 
 table[data-sortable-table] th[aria-sort=ascending]:not(.no-sort) {
