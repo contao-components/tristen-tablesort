@@ -9,9 +9,9 @@ table[data-sortable-table] th[role=columnheader]:not(.no-sort){
 }
 
 table[data-sortable-table] th[aria-sort=ascending]:not(.no-sort) {
-    background-image:url("../images/desc.svg");
+    background-image:url("../images/asc.svg");
 }
 
 table[data-sortable-table] th[aria-sort=descending]:not(.no-sort) {
-    background-image:url("../images/asc.svg");
+    background-image:url("../images/desc.svg");
 }
